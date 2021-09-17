@@ -6,6 +6,7 @@ function createHeader() {
     logo.classList.add('animate__animated', 'animate__zoomInDown')
     logo.id = "header-logo"
     header.appendChild(logo)
+    
 
     return header
 }

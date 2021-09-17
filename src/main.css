@@ -4,5 +4,13 @@ body {
 
 #header-logo {
   width: 90%;
+  height: 100%;
   margin-top: 10%;
+  margin-bottom: 200px;
+}
+
+#about-text {
+  color: whitesmoke;
+  margin: 100px 100px 1400px;
+  font-size: 30px;
 }
