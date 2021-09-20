@@ -9,8 +9,17 @@ body {
   margin-bottom: 200px;
 }
 
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+
 #about-text {
   color: whitesmoke;
-  margin: 100px 100px 1400px;
+  margin-top: 400px;
   font-size: 30px;
+}
+
+#about-text > p {
+  margin: auto 200px 300px 200px;
 }
