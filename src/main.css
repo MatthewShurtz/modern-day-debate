@@ -14,12 +14,31 @@ body {
   justify-content: center;
 }
 
+h1 {
+  margin: auto 300px 40px;
+}
+
+.header-font-size {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 #about-text {
   color: whitesmoke;
   margin-top: 400px;
+  margin-bottom: 600px;
   font-size: 30px;
 }
 
 #about-text > p {
   margin: auto 200px 300px 200px;
+}
+
+#controversial-reason-vid {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 400px;
 }
