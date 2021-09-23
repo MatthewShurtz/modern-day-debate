@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 #header-logo {
   width: 90%;
   height: 100%;
@@ -37,8 +41,12 @@ h1 {
 #controversial-reason-vid {
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
   height: 400px;
   margin-top: 50px;
   margin-bottom: 400px;
+}
+
+.grid {
+  display: grid;
 }

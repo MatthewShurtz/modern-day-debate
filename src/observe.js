@@ -1,4 +1,4 @@
-function appearOnScroll(item) {
+function observerEffect(item, animation) {
   const options = {
     threshold: 0,
     rootMargin: '50px'
@@ -11,11 +11,13 @@ function appearOnScroll(item) {
         if (!entry.isIntersecting) {
             return;
         } else {
-            entry.target.classList.add('animate__animated', 'animate__fadeIn', 'animate__slower')
+            entry.target.classList.add('animate__animated', animation, 'animate__slower')
         }
     })
     }, options)
     observer.observe(item)
 }
 
-export default appearOnScroll
+
+
+export default observerEffect
