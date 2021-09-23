@@ -10,7 +10,7 @@ body {
   width: 90%;
   height: 100%;
   margin-top: 10%;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 
 .center-text {
@@ -44,9 +44,21 @@ h1 {
   width: 50%;
   height: 400px;
   margin-top: 50px;
-  margin-bottom: 400px;
+  margin-bottom: 600px;
 }
 
 .grid {
   display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.debate-video {
+  margin: 50px;
+  width: 90%;
+  height: 90%;
+}
+
+#debate-video-grid {
+  margin-bottom: 400px;
 }

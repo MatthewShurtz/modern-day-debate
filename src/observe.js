@@ -1,7 +1,7 @@
-function observerEffect(item, animation) {
+function observerEffect(item, animation, speed) {
   const options = {
     threshold: 0,
-    rootMargin: '50px'
+    rootMargin: '15px'
     }
 
     const observer = 
@@ -11,7 +11,7 @@ function observerEffect(item, animation) {
         if (!entry.isIntersecting) {
             return;
         } else {
-            entry.target.classList.add('animate__animated', animation, 'animate__slower')
+            entry.target.classList.add('animate__animated', animation, speed)
         }
     })
     }, options)
