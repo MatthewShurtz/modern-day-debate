@@ -20,6 +20,7 @@ const about = document.getElementById('about-text')
 const conVid = document.getElementById('reason-sec')
 const debateSecEffect = document.getElementById('debate-section')
 
+
 observerEffect(headerLogo, 'animate__flash', 'animate__slow')
 observerEffect(about, 'animate__fadeIn', 'animate__slower')
 observerEffect(conVid, 'animate__fadeIn', 'animate__slower')
